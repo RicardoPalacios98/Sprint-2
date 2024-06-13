@@ -1,0 +1,364 @@
+/*CARACTERISTICAS COMPARTIDAS DE LOS 5 HTML*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: rgb(144, 224, 239);
+
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: 100%;
+
+}
+
+.logo {
+    width: 5%;
+    background-color: rgb(144, 224, 239);
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(144, 224, 239);
+    max-height: 7vh;
+    width: 100%;
+    padding-left: 20px;
+
+}
+
+.navBar a {
+    padding: 5px;
+    border: 3px solid darkblue;
+    cursor: pointer;
+    border-radius: 35px;
+
+}
+
+.navBar {
+    background-color: rgb(144, 224, 239);
+
+}
+
+a:hover {
+    background-color: rgb(1, 106, 162);
+    color: black;
+}
+
+.titulos {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 119, 182);
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    min-height: 3vh;
+    width: 100%;
+    background-color: rgb(0, 116, 182);
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+/*Index*/
+
+/*HEADER*/
+
+/*MAIN*/
+
+.banner {
+    width: 100%;
+    height: 300px;
+
+}
+
+.imgBanner {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+
+}
+
+.imgIcecream {
+    width: 20%;
+    border-radius: 15px;
+
+}
+
+
+.parrafo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    width: 100%;
+
+}
+
+/*FOOTER*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+/*About As*/
+
+/*HEADER*/
+
+/*MAIN*/
+
+h2 {
+    display: flex;
+}
+
+.we {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 2em;
+}
+
+.sectionAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.article1 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 5px;
+    padding-left: 140px;
+
+}
+
+.article2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 5px;
+    padding-left: 160px;
+
+}
+
+.article3 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 5px;
+    padding-left: 18px;
+}
+
+
+.img1 {
+    height: 145px;
+    width: 145px;
+    border-radius: 20px;
+
+}
+
+.img2 {
+    height: 145px;
+    width: 145px;
+    border-radius: 20px;
+
+}
+
+.img3 {
+    height: 145px;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.parrafo1 {
+    color: darkblue;
+
+}
+
+.parrafo2 {
+    color: darkblue;
+
+}
+
+.parrafo3 {
+    color: darkblue;
+
+}
+
+/*FOOTER*/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+/*Contact*/
+
+/*HEADER*/
+
+/*MAIN*/
+
+.banner2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.imgBanner2 {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.order {
+    font-size: 1.5em;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.delivery {
+    font-size: 1.5em;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.email {
+    font-size: 1.5em;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+/*FOOTER*/
+
+/*More Information*/
+
+/*HEADER*/
+
+/*MAIN*/
+
+
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+table {
+    margin: 60px;
+
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid darkblue;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 89vh;
+    padding: 10px;
+}
+
+/*FOOTER*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+/*Benefits an Tips*/
+
+/*HEADER*/
+
+/*MAIN*/
+
+.sectionBen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    align-content: center;
+}
+
+.article4 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 5px;
+    padding-left: 280px;
+
+}
+
+.article5 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 5px;
+    padding-left: 260px;
+}
+
+.bene1 {
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 100px;
+
+}
+
+
+.bene2 {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 100px;
+
+
+}
+
+/*FOOTER*/
