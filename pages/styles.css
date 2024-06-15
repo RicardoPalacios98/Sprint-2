@@ -344,7 +344,7 @@ caption {
 
 .bene1 {
     width: 25%;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     padding-left: 100px;
 
@@ -354,7 +354,7 @@ caption {
 .bene2 {
     display: flex;
     width: 30%;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     padding-left: 100px;
 
