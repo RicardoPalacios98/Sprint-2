@@ -90,6 +90,7 @@ h1,
 h2 {
     display: flex;
     justify-content: center;
+    width: 99%;
 }
 
 
@@ -325,7 +326,7 @@ caption {
 
 /*FOOTER*/
 
-/*Benefits an Tips*/
+/*Benefits and Tips*/
 
 /*HEADER*/
 
@@ -341,7 +342,7 @@ caption {
 .article4 {
     display: flex;
     align-items: center;
-    gap: 220px;
+    gap: 100px;
     padding: 5px;
     margin-top: 3px;
 }
@@ -349,7 +350,7 @@ caption {
 .article5 {
     display: flex;
     align-items: center;
-    gap: 180px;
+    gap: 100px;
     padding: 5px;
 }
 
@@ -433,6 +434,8 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
+    border-color: rgb(28, 5, 49);
 
 }
 
@@ -629,7 +632,7 @@ fieldset {
         display: flex;
         flex-direction: column;
         gap: 5px;
-        height: 75vh;
+        min-height: 75vh;
 
     }
 
