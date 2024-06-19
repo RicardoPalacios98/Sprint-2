@@ -10,17 +10,14 @@
 
 }
 
+
 .layout {
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
-    min-height: 90vh;
     width: 100%;
-
-}
-
-.logo {
-    width: 5%;
-    background-color: rgb(144, 224, 239);
+    min-height: 100vh;
 
 }
 
@@ -30,11 +27,36 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(144, 224, 239);
-    max-height: 7vh;
+    min-height: 6vh;
     width: 100%;
     padding-left: 20px;
 
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 91vh;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    min-height: 3vh;
+    width: 100%;
+    background-color: rgb(0, 119, 182);
+
+}
+
+.logo {
+    width: 3%;
+    background-color: rgb(144, 224, 239);
+
+}
+
+
 
 .navBar a {
     padding: 5px;
@@ -63,16 +85,8 @@ a:hover {
 }
 
 
-.footer {
-    display: flex;
-    justify-content: center;
-    min-height: 3vh;
-    width: 100%;
-    background-color: rgb(0, 119, 182);
 
-}
 
-------------------------------------------------------------------------------------------------------------------------------------------------
 /*Index*/
 
 /*HEADER*/
@@ -117,7 +131,7 @@ a:hover {
 
 /*FOOTER*/
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+
 /*About As*/
 
 /*HEADER*/
@@ -147,7 +161,7 @@ h2 {
     align-items: center;
     gap: 100px;
     padding: 5px;
-    padding-left: 140px;
+    padding-left: 10px;
 
 }
 
@@ -156,7 +170,7 @@ h2 {
     align-items: center;
     gap: 100px;
     padding: 5px;
-    padding-left: 160px;
+    padding-left: 30px;
 
 }
 
@@ -165,7 +179,8 @@ h2 {
     align-items: center;
     gap: 100px;
     padding: 5px;
-    padding-left: 32px;
+    padding-right: 110px;
+
 }
 
 
@@ -207,7 +222,7 @@ h2 {
 /*FOOTER*/
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+
 /*Contact*/
 
 /*HEADER*/
@@ -216,16 +231,17 @@ h2 {
 
 .banner2 {
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
+    flex-direction: column-reverse;
+    margin-top: 240px;
 }
 
 .imgBanner2 {
     border-radius: 20px;
     object-fit: cover;
     width: 100%;
-    height: 500px;
-    padding-top: 10px;
+    height: 600px;
     display: flex;
     justify-content: center;
 
@@ -237,7 +253,7 @@ h2 {
     color: darkblue;
     display: flex;
     justify-content: center;
-    padding: 20px;
+
 }
 
 .delivery {
@@ -245,7 +261,6 @@ h2 {
     color: darkblue;
     display: flex;
     justify-content: center;
-    padding: 20px;
 
 }
 
@@ -255,11 +270,18 @@ h2 {
     color: darkblue;
     display: flex;
     justify-content: center;
-    padding: 25px;
 
 }
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+.phone {
+    font-size: 1.5em;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 /*FOOTER*/
 
 /*More Information*/
@@ -269,24 +291,13 @@ h2 {
 /*MAIN*/
 
 
-
-.layout {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    padding: 50px;
-    width: 100%;
-    height: 100vh;
-}
-
 table {
     margin: 60px;
 
 }
 
 table {
-margin-top: 150px;
+    margin-top: 150px;
 
 }
 
@@ -304,18 +315,11 @@ caption {
     caption-side: bottom;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 89vh;
-    padding: 10px;
-}
+
 
 
 /*FOOTER*/
 
-------------------------------------------------------------------------------------------------------------------------------------------------
 /*Benefits an Tips*/
 
 /*HEADER*/
@@ -326,37 +330,34 @@ caption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
     align-content: center;
 }
 
 .article4 {
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 220px;
     padding: 5px;
-    padding-left: 280px;
     margin-top: 3px;
 }
 
 .article5 {
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 180px;
     padding: 5px;
-    padding-left: 260px;
 }
 
 .bene1 {
-    width: 25%;
-    height: 400px;
+    width: 99%;
+    height: 380px;
     border-radius: 10px;
 
 }
 
 
 .bene2 {
-    width: 30%;
+    width: 50%;
     height: 295px;
     border-radius: 10px;
 
@@ -364,7 +365,7 @@ caption {
 
 /*FOOTER*/
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+
 /*Raffle*/
 
 
@@ -374,10 +375,6 @@ caption {
 
 /*Main*/
 
-div {
-    display: flex;
-
-}
 
 .location {
     display: flex;
@@ -385,10 +382,9 @@ div {
 
 .mainRaffle {
     display: flex;
-justify-content: space-around;    
+    justify-content: space-around;
     width: 100%;
     max-height: 90vh;
-
 }
 
 .section1Raffle {
@@ -396,16 +392,18 @@ justify-content: space-around;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- width: 60%;
-    max-height: 90vh;
+    width: 60%;
+    max-height: 80vh;
+    gap: 10px;
 
 }
 
 .section2Raffle {
     display: flex;
-width: 40%;
-    max-height: 90vh;
-
+    width: 40%;
+    max-height: 80vh;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 main {
@@ -425,9 +423,240 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: .7rem;
+
 }
 
 
 
 /*FOOTER*/
+
+
+/* MEDIA QUERIES*/
+
+
+/* MOBILE*/
+
+/*Index*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .layout {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        min-height: 25vh;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        min-height: 71vh;
+        width: 100%;
+
+    }
+
+    .footer {
+        min-height: 4vh;
+
+    }
+
+    .logo {
+        width: 45%;
+
+    }
+
+    .navBar a {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        gap: 2px;
+        margin: 10px;
+
+    }
+
+    .navBarDiv {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .banner {
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .titulos {
+        font-size: 3rem;
+
+    }
+
+    .subTitulo {
+        padding: 10px;
+
+    }
+
+    .parrafo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+
+
+    }
+
+    /*About Us*/
+
+    .imgIcecream {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+
+
+    .sectionAbout {
+        width: 100%;
+        padding: 0;
+        margin: 10px;
+    }
+
+
+    .article1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .article2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        margin: 0;
+
+    }
+
+    .article3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        margin: 0;
+
+    }
+
+    /*Contact*/
+
+    .banner2 {
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20vh;
+        gap: 15px;
+
+    }
+
+    .delivery {
+        margin: 10px;
+
+    }
+
+    .phone {
+        margin: 10px;
+
+    }
+
+    .email {
+        margin: 10px;
+
+    }
+
+    /*Benefits and Fits*/
+    .article4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        height: 100vh;
+        gap: 5px;
+    }
+
+    .article5 {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 5px;
+    }
+
+    .sectionBen {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        height: 75vh;
+
+    }
+
+    .list1 {
+        display: flex;
+
+    }
+
+    .list2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bene1 {
+        width: 90%;
+
+    }
+
+    .bene2 {
+        width: 80%;
+
+    }
+
+    /*Raffle*/
+
+    .mainRaffle {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+    }
+
+.map {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+}
+
+
+
+/* TABLET*/
